@@ -2,6 +2,7 @@ import fastf1
 import pandas as pd
 fastf1.Cache.enable_cache("cache")
 
+# Same Format as Pulling Qualifying data file but for race data and pulling lap data too
 
 schedule_2024 = fastf1.get_event_schedule(2024, include_testing=False)
 
